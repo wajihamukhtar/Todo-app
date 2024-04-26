@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h1 {
+    font-size: 25px;
+    margin-top: 20;
+}
+
+.list {
+    margin: auto;
+    width: 100%;
+    background: none;
+    padding: 20px 20px;
+}
+
+.list .input {
+    border-color: rgb(164, 160, 160);
+    font-size: 18px;
+    width: 60%;
+    border-top: 2px solid rgb(164, 160, 160);
+    border-left: 2px solid rgb(164, 160, 160);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.list .btn {
+    background-color: rgba(18, 90, 43, 0.634);
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.list {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    height: auto;
+    margin-top: 80px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(14, 157, 64, 0.155);
+}
+.list ul {
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+.list ul li{
+    cursor: pointer;
+    width: 75%;
+    font-size: 20px;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.list ul li .buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.del_btn {
+    background-color: rgba(18, 90, 43, 0.634);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+.edit_btn {
+    background-color: rgba(18, 90, 43, 0.634);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .list .btn {
+        padding: 8px 8px;
+        margin-top: 5px;
+    }
+    .list ul li .buttons{
+        display: flex;
+        gap: 3px;
+    }
+    .list ul li{
+        display: block;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .list .btn {
+        padding: 8px 8px;
+        margin-top: 5px;
+    }
+    .list ul li .buttons{
+        display: flex;
+        gap: 3px;
+    }
+    .list ul li{
+        display: block;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (min-width:375px) and (max-width:575px){
+    .list .btn {
+        padding: 8px 8px;
+        margin-top: 5px;
+    }
+    .list ul li .buttons{
+        display: flex;
+        gap: 3px;
+    }
+    .list ul li{
+        display: block;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (max-width:374px){
+    .list .btn {
+        padding: 8px 8px;
+        margin-top: 5px;
+    }
+    .list ul li .buttons{
+        display: block;
+        gap: 8px;
+        font-size: 14px;
+    }
+    .list ul li{
+        display: block;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    .edit_btn {
+      margin-bottom: 3px;
+    }
+    
+}
